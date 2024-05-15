@@ -14,13 +14,8 @@
     ],
     "website": "https://github.com/OCA/stock-logistics-reporting",
     "depends": ["stock"],
-    "data": ["wizards/stock_quantity_history.xml"],
-    "assets": {
-        "web.assets_backend": [
-            "stock_quantity_history_location/static/src/components"
-            "/inventory_report/inventory_report.esm.js",
-            "stock_quantity_history_location/static/src/components/"
-            "inventory_report/inventory_report.xml",
-        ],
-    },
+    "data": [
+        "views/stock_quant_views.xml",
+        "wizards/stock_quantity_history.xml",
+    ],
 }
